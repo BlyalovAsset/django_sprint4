@@ -1,6 +1,8 @@
 from django.contrib.auth.forms import UserChangeForm
 from django import forms
-from blog.models import Comment, Post, User
+from blog.models import Comment
+from blog.models import Post
+from blog.models import User
 
 
 class UserUpdateForm(UserChangeForm):
